@@ -91,6 +91,10 @@ LEFT JOIN activity a USING (UID)
 GROUP BY g.group)
 ```   
 ### Statistical Data Analysis
+Two main parameters were tested during the statisitcal analysis. they included:
+- Conversion rate
+- Average user purchase
+
 #### Analysis of Conversion rate
 - The 2-sample proportion Z-test was employed here to determine if the difference in the conversion rate between users in the control and treatment group was statistically significant.
 - The goal of the test was to deternmine if the calculated p-value would support or reject the null hypothesis which stated that there was no difference in the conversion rate between the two groups.
