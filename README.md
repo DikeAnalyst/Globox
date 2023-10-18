@@ -7,8 +7,6 @@
  - [Data Collection](Data-Collection)
  - [Data Wrangling](#Data-Wrangling)
  - [Data Analysis](#Data-Analysis)
-    - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-    - [Stat Data Analysis](Stat-Data-Analysis)
   
 
 ## Project Overview
@@ -107,3 +105,9 @@ Two main parameters were tested during the statisitcal analysis. they included:
   - Confidence Interval = (p̂A - p̂B) ± Zc * √ ( p̂A*(1 - p̂A)/nA + p̂B*(1 - p̂B)/nB )
   - Lower Bound = (p̂A - p̂B) - Margin of Error
   - Upper Bound = (p̂A - p̂B) + Margin of Error
+  
+ #### Analysis of Average user purchase
+- The 2-tailed T-test was adopted here to determine if there was statistically significant difference between the mean purchases by users in each group
+- The two sample t-test with unequal variance is also called the Welchs test.
+- Parameters used in this test included the group mean purchases, standard deviation, the degree of freedom.
+- 
