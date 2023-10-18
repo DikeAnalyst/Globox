@@ -28,3 +28,15 @@ for analysis. The major pre-processing action done on the dataset was replacing 
 'spent' column with zero values. This was important for further analysis which required the use of the
 spent parameter.
 
+## Data Analysis
+### Exploratory Data Analysis (EDA)
+the following business questions were answered:
+1. what was the total number of users in the experiment?
+```sql
+SELECT count(DISTINCT a.uid) AS distinct_users,
+count(a.uid) AS purchasing_users,
+count(DISTINCT u.id) AS total_users
+FROM users u
+LEFT JOIN activity a ON u.id = a.uid;
+```
+   
