@@ -89,7 +89,7 @@ FROM groups g
 LEFT JOIN activity a USING (UID)
 GROUP BY g.group)
 ```   
-### Stat Data Analysis
+### Statistical  Analysis
 Two main parameters were tested during the statisitcal analysis. they included:
 - Conversion rate
 - Average user purchase
@@ -110,4 +110,19 @@ Two main parameters were tested during the statisitcal analysis. they included:
 - The 2-tailed T-test was adopted here to determine if there was statistically significant difference between the mean purchases by users in each group
 - The two sample t-test with unequal variance is also called the Welchs test.
 - Parameters used in this test included the group mean purchases, standard deviation, the degree of freedom.
-- 
+- df = ( (sA^2 / nA + sB^2 / nB)^2 ) / ( ( (sA^2 / nA)^2 ) / (nA - 1) + ( (sB^2 / nB)^2 ) / (nB - 1) )
+- t = (x̄A - x̄B) / sqrt( sA^2 / nA + sB^2 / nB )
+- Critical t-value = T.INV(1 - α/2, df)
+- p-value = T.DIST.2T(ABS(t), df
+
+## Result
+The outcome of the A/B Test showed that there was a statistically significant difference between the conversion rate of the control and treatment group. Yet, despite the recognisable difference in the mean purchase amongst users within each group, the statistical test showed that this difference held no statistical significance, and had a high probability of occuring by chance. Further analysis showed the presence of novelty and a low statistical power with regards to the sample size.
+
+## Recommendation
+Considering the statistical analysis, the power analysis, and the test for novelty, I recommended that the experiment needed more iteration.
+This is based on the premise that despite the interesting result obtained when the difference in conversion rate was considered, we failed to identify a significant difference in the average amount spent
+by users between the two groups.
+Furthermore, The presence of the novelty effect only raises questions regarding the validity of the results.
+Finally, the low statistical power buttresses the resolve of my recommendation, as it is clear that for the
+intended 80% statistical power, the sample size was rather insufficient to meeting the standard.
+Therefore, the recommended iteration should account for a larger sample size as required.
