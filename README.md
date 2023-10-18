@@ -4,6 +4,10 @@
  - [Project Overview](#Project-Overview)
  - [Data Source](#Data-Source)
  - [Tools](#Tools)
+ - [Data Collection](Data-Collection)
+ - [Data Wrangling](#Data-Wrangling)
+ - [Data Analysis](#Data-Analysis)
+    - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 
 ## Project Overview
 The main aim of this experiment was to determine whether launching the food and drinks banner on the
@@ -49,7 +53,7 @@ for analysis. The major pre-processing action done on the dataset was replacing 
 spent parameter.
 
 ## Data Analysis
-### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis
 The following questions were answered:
 1. what was the total number of users in the experiment?
 ```sql
