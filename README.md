@@ -7,7 +7,7 @@
  - [Data Collection](Data-Collection)
  - [Data Wrangling](#Data-Wrangling)
  - [Data Analysis](#Data-Analysis)
- - [Results](#Results)
+ - [Result](#Result)
  - [Recommendation](#Recommendation)
   
 
