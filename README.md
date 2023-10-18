@@ -7,6 +7,8 @@
  - [Data Collection](Data-Collection)
  - [Data Wrangling](#Data-Wrangling)
  - [Data Analysis](#Data-Analysis)
+ - [Results](#Results)
+ - [Recommendation](#Recommendation)
   
 
 ## Project Overview
