@@ -8,7 +8,8 @@
  - [Data Wrangling](#Data-Wrangling)
  - [Data Analysis](#Data-Analysis)
     - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-    - [Statistical Data Analysis](Statistical-Data-Analysis)
+    - [Stat Data Analysis](Stat-Data-Analysis)
+  
 
 ## Project Overview
 The main aim of this experiment was to determine whether launching the food and drinks banner on the
@@ -90,7 +91,7 @@ FROM groups g
 LEFT JOIN activity a USING (UID)
 GROUP BY g.group)
 ```   
-### Statistical Data Analysis
+### Stat Data Analysis
 Two main parameters were tested during the statisitcal analysis. they included:
 - Conversion rate
 - Average user purchase
