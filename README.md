@@ -8,7 +8,7 @@
  - [Data Wrangling](#Data-Wrangling)
  - [Data Analysis](#Data-Analysis)
     - [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-    - [Statisitcal Analysis](Statistical-Analysis)
+    - [Statistical Analysis](Statistical-Analysis)
 
 ## Project Overview
 The main aim of this experiment was to determine whether launching the food and drinks banner on the
