@@ -1,5 +1,10 @@
 # Globox Analysis (A/B Testing)
 
+## Table of content
+ - [Project Overview](#Project-Overview)
+ - [Data Source](#Data-Source)
+ - [Tools](#Tools)
+
 ## Project Overview
 The main aim of this experiment was to determine whether launching the food and drinks banner on the
 Globox website would lead to a significant increase in the company’s revenue.
@@ -22,3 +27,4 @@ Minimal data cleaning practices were done on the collected dataset because the d
 for analysis. The major pre-processing action done on the dataset was replacing the null values on the
 'spent' column with zero values. This was important for further analysis which required the use of the
 spent parameter.
+
