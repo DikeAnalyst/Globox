@@ -119,10 +119,10 @@ Two main parameters were tested during the statisitcal analysis. they included:
 The outcome of the A/B Test showed that there was a statistically significant difference between the conversion rate of the control and treatment group. Yet, despite the recognisable difference in the mean purchase amongst users within each group, the statistical test showed that this difference held no statistical significance, and had a high probability of occuring by chance. Further analysis showed the presence of novelty and a low statistical power with regards to the sample size.
 
 ## Recommendation
-Considering the statistical analysis, the power analysis, and the test for novelty, I recommended that the experiment needed more iteration.
+- Considering the statistical analysis, the power analysis, and the test for novelty, I recommended that the experiment needed more iteration.
 This is based on the premise that despite the interesting result obtained when the difference in conversion rate was considered, we failed to identify a significant difference in the average amount spent
 by users between the two groups.
-Furthermore, The presence of the novelty effect only raises questions regarding the validity of the results.
-Finally, the low statistical power buttresses the resolve of my recommendation, as it is clear that for the
+- Furthermore, The presence of the novelty effect only raises questions regarding the validity of the results.
+- Finally, the low statistical power buttresses the resolve of my recommendation, as it is clear that for the
 intended 80% statistical power, the sample size was rather insufficient to meeting the standard.
 Therefore, the recommended iteration should account for a larger sample size as required.
