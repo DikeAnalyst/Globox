@@ -119,6 +119,7 @@ Two main parameters were tested during the statisitcal analysis. they included:
 
 ## Result
 The outcome of the A/B Test showed that there was a statistically significant difference between the conversion rate of the control and treatment group. Yet, despite the recognisable difference in the mean purchase amongst users within each group, the statistical test showed that this difference held no statistical significance, and had a high probability of occuring by chance. Further analysis showed the presence of novelty and a low statistical power with regards to the sample size.
+to view the complete visualisation click [here](https://public.tableau.com/views/GloboxAnalysis_16915248998220/Story1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ## Recommendation
 - Considering the statistical analysis, the power analysis, and the test for novelty, I recommended that the experiment needed more iteration.
