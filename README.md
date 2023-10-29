@@ -18,7 +18,7 @@ This project utilized all the steps involved in a typical data analytics project
 the problem to data storytelling and visualization.
 
 ## Data Source
-The main data used in this project was contained in the Globox database which can be accessed through this link:  postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766-pooler.us-east-2.aws.neon.tech/Globox
+The main data used in this project was contained in the Globox database which can be accessed through this [link] postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766-pooler.us-east-2.aws.neon.tech/Globox
 
 ### Tools
 - Excel - Data cleaning and Statistical analysis (A/B testing)
